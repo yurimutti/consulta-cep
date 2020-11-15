@@ -3,9 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link  rel="shortcut icon" type="image/jpg" href="/assets/img/favicon.png">
+  <link rel="stylesheet" href="/assets/css/style.css">
   <title>Consulta CEP</title>
 </head>
 <body>
-  
+<main class="container">
+  <h1 class="title">Consulta CEP</h1>
+<form class="cepForm" id="cepForm">
+  <label for="cep">Cep</label>
+  <input type="text" class="cep" id="cep" aria-label="Consulta Cep" >
+  <small>00000-000</small>
+  <button type="submit" class="btn">Buscar</button>
+</form>
+<div class="infoCep" id="infoCep">
+  <!-- local para inserção dos alerts -->
+</div>
+
+</main>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
+<script src="assets/js/buscaCep.js"></script>
 </body>
 </html>

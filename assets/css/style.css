@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn {
+  display: block;
+  margin: 0 auto;
+  background: #E3C325;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  text-transform: uppercase;
+  padding: 12px 32px;
+  transition: background .2s;
+  outline: none;
+} 
+
+.btn:hover, .btn:active {
+  background: #C9AF2C;
+}
+
+/* Container */
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(116.38deg, #1774AD 0.63%, #034A76 100%);
+  color: white;
+}
+
+.container h1 {
+  font-size: 48px;
+  font-weight: bold;
+  display: flex;
+  letter-spacing: 4px;
+  margin-bottom: 72px;
+}
+
+.container h1::after {
+  content: '';
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  color: #EA4012;
+  background: url("../img/cep.svg") no-repeat;
+  margin-left: 8px;
+}
+
+/* Form */
+
+.cepForm  {
+  width: 350px;
+}
+
+.cepForm  label {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 8px 0;
+} 
+
+.cepForm  input {
+  font-size: 16px;
+  font-weight: 400;
+  color: #222;
+  width: 100%;
+  border-radius: 6px;
+  border: none;
+  padding: 10px 8px ;
+  outline: none;
+  transition: box-shadow  .2s;
+
+} 
+
+.cepForm input:focus{
+  box-shadow: 0 0 0 2px #E3C325;
+}
+
+.cepForm  small {
+  display: block;
+  margin: 8px 0 32px;
+  opacity: .6;
+} 
+
+/* infoCep */
+
+.infoCep {
+width: 540px;
+margin-top: 72px;
+}
+
+.alertCep {
+  background: #EEEEEE;
+  border-radius: 6px;
+  position: relative;
+  padding: 16px;
+  color: #222222;
+}
+
+.infoCep .alertCep h2 {
+  font-size: 24px;
+  font-weight: bold;
+  border-bottom: 2px solid #E0E0E0;
+  padding-bottom: 16px;
+}
+.infoCep .alertCep p {
+  font-weight: bold;
+  margin-top: 16px;
+}
+.infoCep .alertCep span {
+  font-weight: 400;
+  opacity: .8;
+  font-size: 16px;
+  padding-left: 8px;
+}
+
+.infoCep .alertCep img {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+
+.infoCep .alertError {
+  position: relative;
+  padding: 16px;
+  width: 540px;
+  border-radius: 6px;
+  margin-top: 72px;
+  background: #E5505D;
+}
+
+.infoCep .alertError img {
+  position: absolute;
+  top: 18px;
+  right: 16px;
+}
+
+
+
+
+
+

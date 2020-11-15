@@ -1,0 +1,10 @@
+Fetch API  - https://viacep.com.br
+
+Mask para validar o cep 00000-000 
+** https://pt.stackoverflow.com/questions/348030/como-fazer-um-mask-em-javascript-puro
+** https://github.com/vanilla-masker/vanilla-masker 
+** https://imask.js.org/
+
+Alert com mensagem de erro e x para fechar
+Alert com mensagem com informações do end x para fechar
+https://pt.stackoverflow.com/questions/22726/como-esconder-mostrar-uma-div-em-html
