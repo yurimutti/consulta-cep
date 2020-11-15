@@ -16,14 +16,14 @@ function getCepInfo(e) {
     if(data.erro) {
     infoCep += `
     <div class="alertError">
-    <img src="/assets/img/error.svg" alt="Fechar" id="fechar">
+    <img src="assets/img/error.svg" alt="Fechar" id="fechar">
     <p>Cep inexistente.</p>
     </div>
     `;
    } else {
     infoCep += `
     <div class="alertCep">
-    <img src="/assets/img/close.svg" alt="Fechar" id="fechar">
+    <img src="assets/img/close.svg" alt="Fechar" id="fechar">
     <h2>Endereço</h2>
     <p>CEP:<span>${data.cep}</span></p>
     <p>Logradouro:<span>${data.logradouro}</span></p>
