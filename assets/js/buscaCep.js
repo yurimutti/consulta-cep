@@ -33,13 +33,19 @@ function getCepInfo(e) {
   </div>
     `
    }
-   
-   // Insere a template no DOM
-   document.querySelector("#infoCep").innerHTML = infoCep;
-
+    // Insere a template no DOM
+  document.querySelector("#infoCep").innerHTML = infoCep;
+  let el = document.getElementById('fechar');
+    if(el){
+    el.addEventListener('click', close);
+    function close () {
+      document.getElementById("infoCep").style.display = 'none';
+      window.location.reload();
+    }
+    }
 });
 
-  e.preventDefault();
+e.preventDefault();
 
 }
 
@@ -49,10 +55,8 @@ $(document).ready(function(){
   
 });
 
-const closeAlert = document.querySelector('#fechar')
-closeAlert.addEventListener('click', close);
 
-function close () {
-  infoCep.style.display = 'none';
-}
+
+
+
 
