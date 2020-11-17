@@ -154,6 +154,7 @@ margin-top: 72px;
 
 @media (max-width: 575.98px) {
   .container h1 {
+    padding-top: 24px;
     font-size: 32px;
     flex-direction: column;
     align-items: center;
@@ -169,17 +170,15 @@ margin-top: 72px;
     max-width: 260px;
   }
   .infoCep {
-    width: 260px;
+    width: 310px;
+    margin: 32px auto;
 }
   .infoCep .alertError {
     width: 260px;
     margin: 0 auto;
   }
-  .infoCep .alertCep h2 {
-    padding-bottom: 8px;
-  }
   .container {
-    height: 120vh;
+    display: block;
   }
 }
 
