@@ -150,6 +150,34 @@ margin-top: 72px;
   right: 16px;
 }
 
+/* Responsivo */
+
+@media (max-width: 575.98px) {
+  .container h1 {
+    font-size: 32px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container h1::after {
+    margin-top: 16px;
+  }
+  .cepForm {
+    width: 240px;
+    margin: 0 auto;
+  }
+  .cepForm  input {
+    max-width: 240px;
+  }
+  .infoCep .alertError {
+    width: 240px;
+    margin: 0 auto;
+  }
+  .alertCep {
+    max-width: 280px;
+    margin: 0 auto;
+  }
+}
+
 
 
 
