@@ -1,8 +1,8 @@
-// Aguarda Submit
-document.querySelector('#cepForm').addEventListener('submit', getCepInfo);
+  // Aguarda Submit
+  document.querySelector('#cepForm').addEventListener('submit', getCepInfo);
 
 function getCepInfo(e) {
-  // Pega valor do cep do input
+ // Pega valor do cep do input
   const cep = document.querySelector('.cep').value;
 
   // Faz a request
