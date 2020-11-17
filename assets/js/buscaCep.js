@@ -33,8 +33,9 @@ function getCepInfo(e) {
   </div>
     `
    }
-    // Insere a template no DOM
+  // Insere a template no DOM
   document.querySelector("#infoCep").innerHTML = infoCep;
+  // Funcão para fechar o alert
   let el = document.getElementById('fechar');
     if(el){
     el.addEventListener('click', close);
@@ -48,11 +49,11 @@ function getCepInfo(e) {
 e.preventDefault();
 
 }
-
+// Máscara para campos Input 
 $(document).ready(function(){
 	//CEP
   $("#cep").mask("99999-999");
-  
+
 });
 
 

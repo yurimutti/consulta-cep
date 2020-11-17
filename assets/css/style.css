@@ -175,9 +175,8 @@ margin-top: 72px;
     width: 260px;
     margin: 0 auto;
   }
-  .alertCep {
-    min-width: 260px;
-    margin: 0 auto;
+  .infoCep .alertCep h2 {
+    padding-bottom: 8px;
   }
 }
 
