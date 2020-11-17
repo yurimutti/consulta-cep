@@ -162,18 +162,21 @@ margin-top: 72px;
     margin-top: 16px;
   }
   .cepForm {
-    width: 240px;
+    width: 260px;
     margin: 0 auto;
   }
   .cepForm  input {
-    max-width: 240px;
+    max-width: 260px;
   }
+  .infoCep {
+    width: 260px;
+}
   .infoCep .alertError {
-    width: 240px;
+    width: 260px;
     margin: 0 auto;
   }
   .alertCep {
-    max-width: 280px;
+    min-width: 260px;
     margin: 0 auto;
   }
 }
